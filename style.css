@@ -1,0 +1,93 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 0;
+}
+
+.container{
+    border: 2px solid black;
+    padding-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;   
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 2px;
+}
+
+.row-1{
+    display: flex;
+}
+
+.row-2{
+    display: flex;
+}
+
+.item{
+    display: flex;
+}
+
+.item-under{
+    height: 10px;
+    width: 10px;
+}
+
+.sky-blue{
+    background-color: skyblue;
+}
+
+.black{
+    background-color: black;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.brown{
+    background-color: rgb(252, 103, 73);
+}
+
+.teal{
+    background-color: teal;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.colors:hover{
+    border: 1px solid black;
+}
+
+.colors{
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+}
+
+.eraser{
+    height: 50px;
+    width: 50px;
+}
